@@ -23,7 +23,7 @@ jobs:
           runtime:
             container: false
           script:
-            - pushd $env:NDWREPO_STATE
+            - pushd $NDWREPO_STATE
             - docker build -t mynodeapp:latest .
             - docker run -d -p 9080:8080 --name mynodeapp mynodeapp:latest
             - sleep 5
