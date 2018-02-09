@@ -26,7 +26,8 @@ jobs:
               options: --dns=4.4.4.4 --dns=8.8.8.8
           script:
             - echo "Checking runtime values"
-            - sudo docker info
+            - docker info
+            - docker ps
 
   - name: build_mac_node_image
     type: runSh
