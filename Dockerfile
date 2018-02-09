@@ -1,4 +1,4 @@
-FROM stefanscherer/node-windows:latest
+FROM node
 
 # Add our configuration files and scripts
 WORKDIR C:\\app
