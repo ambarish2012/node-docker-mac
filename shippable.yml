@@ -7,7 +7,7 @@ resources:
     pointer:
       # replace with source code location (e.g. GitHub) where you cloned this
       # sample project.
-      sourceName: ambarish2012/node-docker-windows
+      sourceName: ambarish2012/node-docker-mac
       branch: master
 
 jobs:
