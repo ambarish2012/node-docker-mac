@@ -7,4 +7,4 @@ RUN npm install
 RUN cd C:\\app
 EXPOSE 8080
 
-ENTRYPOINT ["npm.cmd", "start"]
+ENTRYPOINT ["npm", "start"]
