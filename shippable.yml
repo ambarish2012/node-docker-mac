@@ -23,6 +23,7 @@ jobs:
             options:
               imageName: drydock/u14pytall
               imageTag: master
+              pull: true
               options: --dns=4.4.4.4 --dns=8.8.8.8
           script:
             - echo "Checking runtime values"
