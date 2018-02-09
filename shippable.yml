@@ -1,6 +1,6 @@
 resources:
 
-  - name: ndwrepo
+  - name: ndmrepo
     type: gitRepo
     # replace dr_github with your GitHub integration name
     integration: github
@@ -12,12 +12,12 @@ resources:
 
 jobs:
 
-  - name: build_node_image
+  - name: build_mac_node_image
     type: runSh
     steps:
-      - IN: ndwrepo
+      - IN: ndmrepo
       - TASK:
-          name: build_image
+          name: build_mac_image
           runtime:
             container: false
           script:
