@@ -14,8 +14,6 @@ jobs:
 
   - name: build_node_image
     type: runSh
-    runtime:
-      nodePool: custom__x86_64__WindowsServer_2016
     steps:
       - IN: ndwrepo
       - TASK:
